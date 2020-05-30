@@ -1,0 +1,10 @@
+service/impl/UserServiceImpl.class
+util/JDBCUtils.class
+model/User.class
+service/UserService.class
+web/servlet/RegisterUserServlet.class
+dao/UserDao.class
+model/ResultInfo.class
+web/servlet/CheckCodeServlet.class
+dao/impl/UserDaoImpl.class
+web/filter/CharchaterFilter.class
