@@ -16,11 +16,12 @@
             <version>4.13</version>
             <scope>test</scope>
         </dependency>
-        <!--servlet-->
+        <!--web.servlet-->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
+            <scope>provided</scope>
         </dependency>
 
 
@@ -135,7 +136,7 @@
                 <version>2.1</version>
                 <configuration>
                     <!-- 通过maven tomcat7:run运行项目时，访问项目的端口号 -->
-                    <port>80</port>
+                    <port>9999</port>
                     <!-- 项目访问路径  本例：localhost:9090,  如果配置的aa， 则访问路径为localhost:9090/aa-->
                     <path>/travel</path>
                 </configuration>
