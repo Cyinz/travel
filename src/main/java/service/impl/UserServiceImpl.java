@@ -27,4 +27,14 @@ public class UserServiceImpl implements UserService {
         userDao.save(user);
         return true;
     }
+
+    /**
+     * 登陆
+     * @param user
+     * @return
+     */
+    @Override
+    public User login(User user) {
+        return userDao.findByUsernameAndPassword(user);
+    }
 }

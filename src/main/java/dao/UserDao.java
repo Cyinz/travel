@@ -16,4 +16,11 @@ public interface UserDao {
      * @param user
      */
     public void save(User user);
+
+    /**
+     * 登陆
+     * @param user
+     * @return
+     */
+    User findByUsernameAndPassword(User user);
 }
